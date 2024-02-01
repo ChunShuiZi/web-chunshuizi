@@ -6,27 +6,25 @@
     font-family: CN1;
     src: url("CNC1.ttf");
 }    
-@font-face {
-    font-family: CN2;
-    src: url("CNC2.ttf");
-}    
+ 
 html {
-    min-width: 1480px;
+    min-width: 1470px;
 	min-height: 600px;
-    max-width: 1480px;
+    max-width: 1470px;
     max-height: 600px;
 }
 
 #L1{
     background-color: #66ccff;
-    padding: 20px ;
+    padding-top: 20px ;
     margin-top: -30px;
+    padding-bottom: 10px;
     margin-left: -10px;
     width: 100%;
     position:fixed;
 }
 #L2{
-    margin-left: 40px;
+    margin-left: 70px;
     color:white;
     font-family: CN1;
     font-size: 18pt;
@@ -40,7 +38,7 @@ html {
     border-style:solid;
     border-width:medium;
     color:white;
-    Margin-right: 70px;
+    Margin-right: 45px;
     padding:10px;
     border-radius: 8px 8px 8px 8px;
 }
@@ -95,7 +93,7 @@ html {
     margin-top: 90px;
     margin-left: 50px;
     background-color: #f0c6c6;
-    width: 62%;
+    width: 63%;
     height: 200px;
 }
 
@@ -103,10 +101,10 @@ html {
     border-radius: 8px 8px 8px 8px;
     padding:30px;
     margin-top: -290px;
-    margin-left: 452px;
+    margin-left: 451px;
     background-color: #c3be80;
     height: 200px;
-    width: 240px;
+    width: 244px;
     color:white;
     font-family: CN1;
     font-size: 15pt;
@@ -116,20 +114,20 @@ html {
     border-radius: 8px 8px 8px 8px;
     padding:30px;
     margin-top: -290px;
-    margin-left:787px;
+    margin-left:786px;
     background-color: #89d19e;
     height: 200px;
-    width: 240px;
+    width: 244px;
 }
 
 #L13{
     border-radius: 8px 8px 8px 8px;
     padding:30px;
     margin-top: -290px;
-    margin-left: 1122px;
+    margin-left: 1121px;
     background-color: #57a3a3;
     height: 200px;
-    width: 240px;
+    width: 244px;
     color:white;
     font-family: CN1;
     font-size: 15pt;
@@ -140,4 +138,32 @@ html {
     color:white;
     font-family: CN1;
     font-size: 12pt;
+}
+
+#L15{
+    border-radius: 8px 8px 8px 8px;
+    padding:30px;
+    margin-top: 0px;
+    margin-left:50px;
+    background-color: #f86b6b;
+    height: 200px;
+    width: 290px;
+    color:white;
+    font-family: CN1;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+#L18{
+    border-radius: 8px 8px 8px 8px;
+    padding:30px;
+    margin-top: 0px;
+    margin-left:50px;
+    background-color: #6a9de8;
+    height: 200px;
+    width: 916px;
+    color:white;
+    font-family: CN1;
+    font-size: 14pt;
+    text-decoration: none;
 }
